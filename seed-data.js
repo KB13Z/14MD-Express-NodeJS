@@ -62,9 +62,9 @@ connection.connect((err) => {
         // Define the SQL query to insert data into the table
         const insertDataQuery = `
           INSERT INTO cards (image, name, description, mood) VALUES
-            ('src/assets/image-2.jpeg', 'Merlin', 'Stretching paws', 'Content'),
-            ('src/assets/image-6.jpeg', 'Merlin', 'Playing with decoration', 'Curious'),
-            ('src/assets/image-5.jpeg', 'Merlin', 'Receiving cat food', 'Hungry')
+            ('/src/assets/image-2.jpeg', 'Merlin', 'Stretching paws', 'Content'),
+            ('/src/assets/image-6.jpeg', 'Merlin', 'Playing with decoration', 'Curious'),
+            ('/src/assets/image-5.jpeg', 'Merlin', 'Receiving cat food', 'Hungry')
         `;
 
         // Execute the query to insert data
